@@ -1,0 +1,50 @@
+# VSCode specific
+.vscode/
+*.code-workspace
+
+# CMake build directories
+/build/
+/out/
+/bin/
+/lib/
+/build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+/CMakeScripts/
+CMakeLists.txt.user
+cmake_install.cmake
+install_manifest.txt
+
+# Build output
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Compiled object files
+*.slo
+*.lo
+
+# Debug files
+*.gdb
+*.dSYM/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*.bak
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+Desktop.ini
